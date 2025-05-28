@@ -6,6 +6,10 @@
     z-index: 1200;
 }
 
+.nav-menu {
+    /* Empty for now */
+}
+
 .menu-item {
     margin: 0px 10px 0px 10px;
     padding: 5px;
@@ -18,4 +22,10 @@
 .menu-item:hover {
     cursor: pointer;
     transform: translateY(5px);
+}
+
+.active-menu-item {
+    background-color: rgba(140, 242, 99, 1);
+    border-radius: 3px;
+    color: black;
 }
