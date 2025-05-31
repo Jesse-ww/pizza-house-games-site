@@ -32,3 +32,17 @@
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
+
+/* Heading Text */
+.badeen-display-regular {
+  font-family: "Badeen Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Body Text */
+.kdam-thmor-pro-regular {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

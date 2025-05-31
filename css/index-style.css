@@ -1,11 +1,4 @@
 
-.banner {
-    height: 75vh;
-    background: linear-gradient(200deg,  rgb(238, 130, 130) 0%, rgb(242, 94, 94) 75%);
-    /* background: linear-gradient(200deg,  rgb(115, 115, 115) 0%, rgb(32, 32, 32) 75%); */
-    /* background: linear-gradient(48deg,  rgb(180, 180, 180) 0%, rgb(255, 255, 255) 75%); */
-}
-
 #banner-logo {
     max-width: 400px;
     transform: rotate(4deg);
@@ -17,12 +10,20 @@
 
 .content {
     max-width: 70%;
-    letter-spacing: 1px;
-    height: 500px;
+    height: 100%;
     padding: 25px 45px 25px 45px;
+    margin-top:100px; 
+    background-color:rgba(170, 172, 104, 0.863);
+    letter-spacing: 1px;
+    z-index:-1;
+    transform:rotate(-2deg);
 }
 
 .footer {
     height: 150px;
     background: rgb(10, 5, 5);
+}
+
+@media (max-width: 496px) {
+    
 }

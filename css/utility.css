@@ -12,3 +12,27 @@
     align-items: center;
     justify-content: center;
 }
+
+.justify-end {
+    justify-content: end;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.ml-sm {
+    margin-left: 10px;
+}
+
+.p-sm {
+    padding: 10px;
+}
+
+.p-m {
+    padding: 15px;
+}
+
+.p-l {
+    padding: 20px;
+}

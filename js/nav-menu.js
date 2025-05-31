@@ -5,6 +5,9 @@ let navItemId = "";
 
 // Set the nav item Id based on the page
 switch (pageName) {
+    case "":
+        navItemId = "home";
+        break;
     case "index.html":
         navItemId = "home";
         break;
@@ -33,7 +36,7 @@ head.innerHTML += navCss;
 // Insert nav menu
 let navMenu = `
         <!-- Start Menu -->
-        <div id="test" class="menu-container flex-row flex-center">
+        <div id="test" class="menu-container flex-row flex-center nav-menu-font">
             <div class="nav-menu flex-row">
                 <a id="home" class="menu-item" href="/index.html">Home</a>
                 <a id="fo" class="menu-item" href="/flipout/flipout-page.html">Flipout</a>
