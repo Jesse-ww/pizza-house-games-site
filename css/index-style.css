@@ -8,17 +8,6 @@
     width: 100%;
 }
 
-.content {
-    max-width: 70%;
-    height: 100%;
-    padding: 25px 45px 25px 45px;
-    margin-top:100px; 
-    background-color:rgba(170, 172, 104, 0.863);
-    letter-spacing: 1px;
-    z-index:-1;
-    transform:rotate(-2deg);
-}
-
 .footer {
     height: 150px;
     background: rgb(10, 5, 5);

@@ -23,9 +23,9 @@ switch (pageName) {
     case "fo2-pp.html":
         navItemId = "fo2";
         break;
-    case "about.html":
-        navItemId = "about";
-        break;
+    // case "about.html":
+    //     navItemId = "about";
+    //     break;
 }
 
 // Insert CSS reference
@@ -41,7 +41,7 @@ let navMenu = `
                 <a id="home" class="menu-item" href="/index.html">Home</a>
                 <a id="fo" class="menu-item" href="/flipout/flipout-page.html">Flipout</a>
                 <a id="fo2" class="menu-item" href="/flipout-2/flipout-2-page.html">Flipout 2</a>
-                <a id="about" class="menu-item" href="/about.html">About</a>
+                <!-- <a id="about" class="menu-item" href="/about.html">About</a> -->
             </div>
         </div>
         <!-- End Menu -->`;
