@@ -34,7 +34,8 @@ let head = document.querySelector("head");
 head.innerHTML += navCss;
 
 // Insert nav menu
-let navMenu = `
+(function drawNavMenu() {
+    let navMenu = `
         <!-- Start Menu -->
         <div id="test" class="menu-container flex-row flex-center nav-menu-font">
             <div class="nav-menu flex-row">
@@ -45,11 +46,12 @@ let navMenu = `
             </div>
         </div>
         <!-- End Menu -->`;
-const body = document.querySelector("body");
-body.innerHTML = navMenu.concat(body.innerHTML);
+    let body = document.querySelector("body");
+    body.innerHTML = navMenu.concat(body.innerHTML);
+} ());
 
 // Get all menu items and convert them to an Array
-const menu = document.querySelector(".menu-container");
+let menu = document.querySelector(".menu-container");
 let menuItems = menu.querySelectorAll(".nav-menu .menu-item");
 menuItems = new Array(...menuItems);
 

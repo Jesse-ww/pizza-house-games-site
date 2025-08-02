@@ -23,11 +23,14 @@ body {
     line-height:65px;
 }
 
+.content-container {
+    margin: 100px 0px 200px 0px;
+}
+
 .content {
     max-width: 70%;
     height: 100%;
     padding: 25px 45px 25px 45px;
-    margin-top:100px; 
     background-color:rgba(170, 172, 104, 0.863);
     letter-spacing: 1px;
     z-index:-1;
@@ -37,6 +40,11 @@ body {
 .game-gif-left {
     max-width: 45vw;
     z-index: -2;
+}
+
+.footer {
+    height: 150px;
+    background: rgb(10, 5, 5);
 }
 
 .page-footer-link {

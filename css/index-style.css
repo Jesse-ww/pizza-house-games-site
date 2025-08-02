@@ -8,11 +8,6 @@
     width: 100%;
 }
 
-.footer {
-    height: 150px;
-    background: rgb(10, 5, 5);
-}
-
 @media (max-width: 496px) {
     
 }
