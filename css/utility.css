@@ -39,12 +39,23 @@
 
 /* Font body heading */
 .fbh {
-  font-size: 28px;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: 900; 
 }
 
 /* Font body */
 .fb {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 600;
+}
+
+@media (max-width: 496px) {
+    .fbh {
+        font-size: 25px;
+    }
+
+    .fb {
+        font-size: 20px;
+    }
+    
 }

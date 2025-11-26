@@ -14,7 +14,7 @@
 }
 
 .nav-menu {
-    /* Empty for now */
+    /* Empty for now?*/
 }
 
 .menu-item::before {
@@ -52,7 +52,6 @@
 
 @media (max-width: 496px) {
     .menu-container {
-        width: 100%;
         left: 0px;
         top: 0px;
     }
