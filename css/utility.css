@@ -36,3 +36,15 @@
 .p-l {
     padding: 20px;
 }
+
+/* Font body heading */
+.fbh {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+/* Font body */
+.fb {
+  font-size: 22px;
+  font-weight: 400;
+}

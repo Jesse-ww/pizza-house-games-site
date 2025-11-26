@@ -23,9 +23,12 @@ switch (pageName) {
     case "fo2-pp.html":
         navItemId = "fo2";
         break;
-    // case "about.html":
-    //     navItemId = "about";
-    //     break;
+// case "about.html":
+//     navItemId = "about";
+//     break;
+    default:
+        navItemId = "home";
+        break;
 }
 
 // Insert CSS reference
@@ -50,7 +53,7 @@ head.innerHTML += navCss;
     body.innerHTML = navMenu.concat(body.innerHTML);
 } ());
 
-// Get all menu items and convert them to an Array
+// Get all menu items and add them to an Array
 let menu = document.querySelector(".menu-container");
 let menuItems = menu.querySelectorAll(".nav-menu .menu-item");
 menuItems = new Array(...menuItems);

@@ -1,14 +1,15 @@
 html {
+    display: block;
     padding: 0;
     margin: 0;
-    color: #221501;
+    background-color: #b8b9a5;
+    color: #000000;
     width: 100%;
 }
 
 body {
     padding: 0;
     margin: 0;
-    background-color: #e7d6a1;
 }
 
 .banner {
@@ -23,6 +24,19 @@ body {
     line-height:65px;
 }
 
+.title-cursor {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+    border: solid 6px;
+    width: 0.3em;
+    height: 0.5em;
+    animation: cursor-blink;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 2, 1, 1.5);
+}
+
 .content-container {
     margin: 100px 0px 200px 0px;
 }
@@ -31,10 +45,9 @@ body {
     max-width: 70%;
     height: 100%;
     padding: 25px 45px 25px 45px;
-    background-color:rgba(170, 172, 104, 0.863);
+    background-color: #989987;
     letter-spacing: 1px;
     z-index:-1;
-    transform:rotate(-2deg);
 }
 
 .game-gif-left {
@@ -64,9 +77,25 @@ body {
   }
 }
 
+@keyframes cursor-blink {
+    0% {
+        border-color: black;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: black;
+    }
+}
+
 @media (max-width: 496px) {
     .page-title-text {
         font-size: 60px;
         line-height: 44px
+    }
+
+    .title-cursor {
+        /* TBD */
     }
 }
